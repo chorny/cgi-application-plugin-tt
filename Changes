@@ -1,5 +1,7 @@
 Revision history for Perl extension CGI::Application::Plugin::TT.
 
+    - Fix for 09_precompile_dir.t on Windows (Alexandr Ciornii)
+
 1.04  Wed Nov  1 07:08:50 EST 2006
 
     - add TEMPLATE_PRECOMPILE_DIR option which can
