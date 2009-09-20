@@ -16,5 +16,10 @@ Module::Build->new(
     create_makefile_pl => 'traditional',
     dist_author => 'Cees Hek <cees@crtconsulting.ca>',
     dist_abstract => 'Plugin that adds Template Toolkit support to CGI::Application',
+    meta_merge => {
+        resources => {
+            repository => 'http://github.com/cees/cgi-application-plugin-tt',
+        },
+    },
 )->create_build_script;
 
