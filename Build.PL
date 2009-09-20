@@ -10,6 +10,9 @@ Module::Build->new(
         'File::Spec' => 0,
         'Class::ISA' => 0,
     },
+    build_requires => {
+        'Test::More'                => '0',
+    }
     recommends => {
         'CGI::Application::Plugin::DevPopup' => 0,
     },
